@@ -1,0 +1,145 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+#header{
+    background-color: black;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0px;
+
+}
+
+#headings{
+    color: white;
+    padding-left: 20px;
+}
+.anc{
+    text-decoration: none;
+    color: white;
+    padding-right: 30px;
+}
+/* delicious */
+#delicious{
+    width: 100%;
+    height: 400px;
+    background-image: url(./images/delicious.jpg);
+    display: flex;
+    color: white;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row;
+    border-radius: 10px;  
+}
+/* parent tad of our menu */
+#section2{
+    background-color: aqua;
+    width: 100%;
+    height: 800px;
+    margin-top: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  #ourmenu{
+     background-color: aqua;
+    width: 100%;
+    height: 800px;
+    margin-top: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  /* childs tags */
+#tag1,#tag2,#tag3,#tag4,#tag5,#tag6,#tag7,#tag8{
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    border-radius: 10px;
+    place-items: center;
+    justify-content: center;
+    margin: 10px;
+    margin-top: 80px;
+    margin-bottom: 10px;
+     
+ }
+ #ima{
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+ }
+ /* today special */
+ #today{
+    width: 100%;
+    height: 300px;
+    background-color: red;
+    border-radius: 10px;
+    margin-top: 50px;
+    text-align: center;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* justify-self: center; */
+  }
+  #todayp{
+    width: 100%;
+    height: 250px;
+    border-radius: 10px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+   }
+ button{
+    width: 70%;
+    height: 40px;
+    background-color: white;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    margin-top: 150px;
+   }
+     /*table  */
+     #table{
+        background-color:wheat;
+        width: 100%;
+        height: 200px;
+        border-radius: 10px;
+      }
+      #form1{
+        width: 200px;
+        height: 200px;
+        margin-left: 700px;
+         
+      }
+      input{
+        width: 200px;
+        height: 30px;
+      }
+      #orange{
+        background-color: orange;
+      }
+ /* footer tag */
+ footer{
+    width: 100%;
+    height: 70px;
+    background-color: black;
+    border-radius: 10px;  
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    justify-items: center;
+ }
